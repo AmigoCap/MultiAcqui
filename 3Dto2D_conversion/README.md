@@ -34,16 +34,16 @@ Dans le premier cas d'essai, on obtient :
 
 **Projection Matrix** : 
 $
-\begin{pmatrix} 
-0.05241897 & -0.13417533 & -0.00497104\\
+\begin{matrix} 
+0.05241897 & -0.13417533 & -0.00497104 \\
 -0.00236236 &  0.00797051 & -0.25118345
-\end{pmatrix}
+\end{matrix}
 $
 
 **Offset Matrix** : 
 $
-\begin{pmatrix} 
-1031.45356893\\
+\begin{matrix} 
+1031.45356893 \\
 855.62283821
-\end{pmatrix}
+\end{matrix}
 $
