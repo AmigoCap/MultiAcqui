@@ -33,17 +33,17 @@ L'écart type moyen à la fin est autour de 25. Comme on ne semble pas pouvoir a
 Dans le premier cas d'essai, on obtient :
 
 **Projection Matrix** : 
-$$
-\left(\begin{array} 
+$
+\begin{pmatrix} 
 0.05241897 & -0.13417533 & -0.00497104\\
 -0.00236236 &  0.00797051 & -0.25118345
-\end{array}\right)
-$$
+\end{pmatrix}
+$
 
 **Offset Matrix** : 
-$$
-\left(\begin{array} 
+$
+\begin{pmatrix} 
 1031.45356893\\
 855.62283821
-\end{array}\right)
-$$
+\end{pmatrix}
+$
