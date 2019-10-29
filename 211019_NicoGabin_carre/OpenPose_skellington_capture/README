@@ -1,0 +1,9 @@
+Durée : 19.08 s
+nb d'images : 477 frames
+Framerate : 25.00 Hz
+
+2 personnes sur la vidéo (la personne en mocap est celle de droite, i.e. : Nico)
+A FAIRE :
+OK - Extraire le JSON des articulations avec OpenPose
+OK - Isoler le JSON de la personne en mocap
+   - Convertir le JSON en CSV en suivant le format du fichier en mocap
