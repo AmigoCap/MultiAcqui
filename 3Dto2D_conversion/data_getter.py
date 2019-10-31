@@ -20,6 +20,7 @@ def get_3d_data () :
     segments=['Nico1:epd1','Nico1:epd2','Nico1:bd2','Nico1:abg1','Nico1:abd2','Nico1:abg2']
     coord_3d_list = []
     for num in range(557, 1497) :
+#     for num in range(0, 1497) : # for data augmentation
         coord_3d=[]
         if num%9==0 :
             for seg in segments:
@@ -32,7 +33,7 @@ def get_3d_data () :
     
     
 def get_2d_data () :
-    relative_path = "../211019_NicoGabin_carre/OpenPose_squelington_capture/"
+    relative_path = "../211019_NicoGabin_carre/OpenPose_skellington_capture/"
     data=[]
     for root, dirs, files in walk(relative_path, topdown=True) :
         files.sort()
@@ -49,6 +50,7 @@ def get_2d_data () :
     segments=['RShoulder','LShoulder',"RElbow","LElbow","RWrist","LWrist"]
     coord_2d_list = []
     for num in range(173, 450) :
+#     for num in range(112, 450) :
         coord_2d=[]
         for seg in segments:
             data=df_openpose[seg].iloc[num]
