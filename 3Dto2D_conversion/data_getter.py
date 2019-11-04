@@ -32,7 +32,7 @@ def get_3d_data () :
     
     
 def get_2d_data () :
-    relative_path = "../211019_NicoGabin_carre/OpenPose_squelington_capture/"
+    relative_path = "../211019_NicoGabin_carre/OpenPose_skellington_capture/"
     data=[]
     for root, dirs, files in walk(relative_path, topdown=True) :
         files.sort()
