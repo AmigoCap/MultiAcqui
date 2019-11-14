@@ -1,0 +1,13 @@
+Acquisition réalisée le XXX par Noms Prénoms.
+
+# But 
+...
+
+# Scénario 
+...
+
+# Matériel utilisé
+...
+
+# Description des fichiers et résultats
+...
